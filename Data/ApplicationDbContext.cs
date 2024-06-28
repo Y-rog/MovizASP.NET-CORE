@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Moviz.Models;
 
 namespace Moviz.Data
 {
@@ -9,5 +10,7 @@ namespace Moviz.Data
             : base(options)
         {
         }
+
+        public DbSet<MovieModel>Movies { get; set; }
     }
 }
