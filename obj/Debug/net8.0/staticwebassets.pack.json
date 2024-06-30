@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\Moviz.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\grego\\source\\repos\\Moviz\\Moviz\\wwwroot\\css\\bootswatchTheme.css",
+      "PackagePath": "staticwebassets\\css\\bootswatchTheme.css"
+    },
+    {
       "Id": "C:\\Users\\grego\\source\\repos\\Moviz\\Moviz\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\grego\\source\\repos\\Moviz\\Moviz\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\grego\\source\\repos\\Moviz\\Moviz\\wwwroot\\img\\img-home-moviz.png",
+      "PackagePath": "staticwebassets\\img\\img-home-moviz.png"
     },
     {
       "Id": "C:\\Users\\grego\\source\\repos\\Moviz\\Moviz\\wwwroot\\js\\site.js",

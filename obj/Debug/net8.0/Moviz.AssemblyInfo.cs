@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Moviz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4388794f1dd482c19dc8cbcdd90aa9a29251e7c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+495ccd59ba8a292d5b5f2338d76fcd9ab0d807f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Moviz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Moviz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
