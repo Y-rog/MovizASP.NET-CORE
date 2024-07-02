@@ -253,6 +253,22 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\grego\\source\\repos\\Moviz\\Moviz\\wwwroot\\uploads\\arcane.jpg",
+      "PackagePath": "staticwebassets\\uploads\\arcane.jpg"
+    },
+    {
+      "Id": "C:\\Users\\grego\\source\\repos\\Moviz\\Moviz\\wwwroot\\uploads\\la-communauté-de-l-anneau.jpg",
+      "PackagePath": "staticwebassets\\uploads\\la-communauté-de-l-anneau.jpg"
+    },
+    {
+      "Id": "C:\\Users\\grego\\source\\repos\\Moviz\\Moviz\\wwwroot\\uploads\\le-retour-du-roi.jpg",
+      "PackagePath": "staticwebassets\\uploads\\le-retour-du-roi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\grego\\source\\repos\\Moviz\\Moviz\\wwwroot\\uploads\\les-deux-tours.jpg",
+      "PackagePath": "staticwebassets\\uploads\\les-deux-tours.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Moviz.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

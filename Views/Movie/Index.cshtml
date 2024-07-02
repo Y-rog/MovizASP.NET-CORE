@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Moviz.Models.MovieModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Ajouter un nouveau film</a>
+</p>
+
+<div class="container justify-content-center row">
+    @foreach (var Movie in Model)
+    {
+        <div class="card bg-dark mb-3 text-center col-md-4 p-2 m-2" style="max-width: 20rem;">
+            <div class="h-100 align-items-center">
+                <img class="align-middle card-img-top img-fluid" src="../uploads/@Movie.ImagePath" />
+            </div>
+            <div class="card-body">
+                <h6 class="card-title">@Movie.Name</h6>
+                <p>Date de sortie : @Movie.ReleaseDate</p>
+                <a class="btn btn-primary" href="#">Ajouter une critique</a>
+            </div>
+            <div>
+                <a asp-action="Edit" asp-route-id="@Movie.Id">Modifier</a> |
+                <a asp-action="Details" asp-route-id="@Movie.Id">Critiques</a> |
+                <a asp-action="Delete" asp-route-id="@Movie.Id">Suprrimer</a>
+            </div>
+        </div>
+    }
+</div>
+

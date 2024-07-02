@@ -12,5 +12,8 @@ namespace Moviz.Data
         }
 
         public DbSet<MovieModel>Movies { get; set; }
+        public DbSet<DirectorModel> Directors { get; set; }
+        public DbSet<GenreModel> Genres { get; set; }
+        public DbSet<ReviewModel> Reviews { get; set; }
     }
 }

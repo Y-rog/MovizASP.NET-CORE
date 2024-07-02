@@ -4,7 +4,11 @@
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public DateTime ReleaseDate { get; set; }
+        public string ImagePath { get; set; }
+        public int ReleaseDate { get; set; }
+
+        ICollection<DirectorModel> Directors { get; set; }
+        ICollection<GenreModel> Genres { get; set; }
 
     }
 }
